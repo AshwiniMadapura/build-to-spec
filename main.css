@@ -14,7 +14,13 @@ a:visited {
 }
 
 .loginHeader {
-  padding: 40px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+.loginHeader .image1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .loginHeader .login__topHeader {
   color: #0b3e68;
@@ -46,7 +52,7 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10px;
 }
 
@@ -141,7 +147,7 @@ a:visited {
 }
 
 .loginHeader {
-  height: 60vh;
+  height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

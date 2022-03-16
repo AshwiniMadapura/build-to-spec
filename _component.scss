@@ -1,5 +1,13 @@
 .loginHeader{
-    padding: 40px;
+    
+    margin-right: 60px;
+    margin-bottom: 30px;
+    .image1{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
     .login__topHeader{
         color: $color-primary;
         font-family: $font-body;
@@ -32,7 +40,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10px;
 }
 
