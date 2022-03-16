@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+  color: #333333;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.loginHeader {
+  padding: 40px;
+}
+.loginHeader .login__topHeader {
+  color: #0b3e68;
+  font-family: "Fredoka", sans-serif;
+  font-size: 50px;
+}
+.loginHeader .login__button {
+  display: block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #0b3e68;
+  border: 2px solid #0b3e68;
+}
+
+.subheader-span {
+  height: 10px;
+  padding: 0 40px;
+}
+.subheader-span .subheader {
+  color: #00ccff;
+  text-align: center;
+  font-size: 40px;
+}
+
+.mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 10px;
+}
+
+.main {
+  padding: 10%;
+  text-align: center;
+}
+.main__header {
+  color: #0b3e68;
+}
+.main__subheader {
+  color: #00ccff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  gap: 10px;
+}
+.main__paragraph {
+  color: #0b3e68;
+  font-family: "Roboto", sans-serif;
+}
+.main__button {
+  display: block;
+  width: 100%;
+  background-color: #0b3e68;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fefefe;
+}
+.main__nextheader {
+  color: #0b3e68;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.FirstContent {
+  grid-area: content1;
+}
+
+.SecondContent {
+  grid-area: content2;
+}
+
+.ThridContent {
+  grid-area: content3;
+}
+
+.FourthContent {
+  grid-area: content4;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.loginHeader {
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  display: grid;
+  grid-template-areas: "content1 img1" "img2 content2" "content3 img3" "img4 content4";
+  gap: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,95 @@
+.loginHeader{
+    padding: 40px;
+    .login__topHeader{
+        color: $color-primary;
+        font-family: $font-body;
+        font-size: 50px;
+    }
+    .login__button{
+            display: block;
+            width: 100px;
+            // background-color: $color-secondary;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: $color-primary;
+            border: 2px solid $color-primary;
+    }
+}
+
+.subheader-span{
+    height: 10px;
+    padding: 0 40px;
+    .subheader{
+        color: $color-secondary;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+.mobile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+.main{
+    padding: 10%;
+    text-align: center;
+    &__header{
+        color: $color-primary;
+    }
+    &__subheader{
+        color: $color-secondary;
+        font-size: 20px;
+        font-family: $font-body-main;
+        gap: 10px;
+    }
+    &__paragraph{
+        color: $color-primary;
+        font-family: $font-body-main;
+    }
+    &__button{
+        display: block;
+        width: 100%;
+        background-color: $color-primary;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: $color-white;
+    }
+    &__nextheader{
+        color: $color-primary;
+        font-family: $font-body-main;
+        font-size: 20px;
+    }
+}
+
+.FirstContent{
+    grid-area: content1;
+}
+.SecondContent{
+    grid-area: content2;
+}
+.ThridContent{
+    grid-area: content3;
+}
+.FourthContent{
+    grid-area: content4;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+
