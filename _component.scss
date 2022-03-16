@@ -113,3 +113,10 @@
         
     }
 }
+
+.footer{
+    background-color: rgb(238, 224, 226);
+    &__text{
+        color: $color-primary;
+    }
+}
