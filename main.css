@@ -133,6 +133,8 @@ a:visited {
 }
 
 .signup__button {
+  display: block;
+  border-radius: 5px;
   width: 20%;
   padding: 10px 20px;
   margin-left: auto;
@@ -179,8 +181,18 @@ a:visited {
   align-items: center;
 }
 
-@media screen and (max-width: 230px) {
-  body {
+@media screen and (max-width: 400px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 340px) {
+  .footer {
     width: 100%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .signup__button {
+    width: 40%;
   }
 }
