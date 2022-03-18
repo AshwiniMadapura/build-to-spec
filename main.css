@@ -90,34 +90,42 @@ a:visited {
 
 .FirstContent {
   grid-area: content1;
+  margin: auto;
 }
 
 .SecondContent {
   grid-area: content2;
+  margin: auto;
 }
 
 .ThridContent {
   grid-area: content3;
+  margin: auto;
 }
 
 .FourthContent {
   grid-area: content4;
+  margin: auto;
 }
 
 .img1 {
   grid-area: img1;
+  margin: auto;
 }
 
 .img2 {
   grid-area: img2;
+  margin: auto;
 }
 
 .img3 {
   grid-area: img3;
+  margin: auto;
 }
 
 .img4 {
   grid-area: img4;
+  margin: auto;
 }
 
 .contentHeader {
@@ -168,7 +176,7 @@ a:visited {
   grid-template-areas: "content1 img1" "img2 content2" "content3 img3" "img4 content4";
   gap: 10px;
   padding: 10px;
-  margin-left: 20px;
+  text-align: center;
 }
 
 .footer {
@@ -184,11 +192,6 @@ a:visited {
 @media screen and (max-width: 400px) {
   main {
     grid-template-columns: 1fr;
-  }
-}
-@media screen and (max-width: 340px) {
-  .footer {
-    width: 100%;
   }
 }
 @media screen and (max-width: 470px) {
