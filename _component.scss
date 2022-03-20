@@ -1,16 +1,11 @@
 .loginHeader{
-    
     margin-right: 30%;
     margin-left: auto;
-    // margin-left: auto;
-    // margin-right: auto;
-    // margin-bottom: auto;
     .image1{
-        height: 100%;
-        width: 100%;
-        // display: block;
-    // margin-left: auto;
-    // margin-right: auto;
+        height: 60%;
+        width: 80%;
+    margin-left: auto;
+    margin-right: 10%;
         // object-fit: cover;
 
     }
@@ -22,6 +17,7 @@
     .login__button{
             display: block;
             width: 100px;
+            height: 40px;
             // background-color: $color-secondary;
             text-align: center;
             padding: 10px 20px;
@@ -52,7 +48,7 @@
 }
 
 .main{
-    padding: 5%;
+    padding: 2%;
     text-align: center;
     &__header{
         color: $color-primary;
@@ -61,11 +57,14 @@
         color: $color-secondary;
         font-size: 20px;
         font-family: $font-body-main;
-        gap: 10px;
+        // gap: 50%;
+        padding: 10%;
     }
     &__paragraph{
         color: $color-primary;
         font-family: $font-body-main;
+        padding: 2%;
+        margin-bottom: 5%;
     }
     &__button{
         display: block;
@@ -77,6 +76,7 @@
         color: $color-white;
     }
     &__nextheader{
+        padding: 10%;
         color: $color-primary;
         font-family: $font-body-main;
         font-size: 30px;
@@ -133,7 +133,7 @@
     &__button{
         display: block;
         border-radius: 5px;
-        width: 20%;
+        width: 40%;
         padding: 10px 20px;
         margin-left: auto;
         margin-right: auto;
